@@ -21,8 +21,8 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 	         <log4j.version>1.2.17</log4j.version>
-		 <sonar.host.url>http://13.127.50.164:9000</sonar.host.url>
-                 <sonar.login>9590cff6a7a184cef2cd6db227bf5e2114934116</sonar.login>		
+		 <sonar.host.url>http://192.168.0.103:9000/</sonar.host.url>
+                 <sonar.login>fa77780baa37ad64249b1b07fe99ac7ea5bf64a8</sonar.login>		
 		<!--<sonar.login>admin</sonar.login>
 		<sonar.password>admin</sonar.password> -->
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -105,7 +105,7 @@
 	    <snapshotRepository>
 	      <id>nexusRepo</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository</name>
-	      <url>http://13.127.50.164:8081/repository/flipkat-snapshot/</url>
+	      <url>http://192.168.0.103:8081/repository/maven-snapshots/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
