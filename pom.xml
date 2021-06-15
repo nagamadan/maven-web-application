@@ -99,13 +99,13 @@
 	    <repository>
 	      <id>nexusRepo</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://13.127.50.164:8081/repository/maven-releases/</url>
+	      <url>http://13.127.50.164:8081/repository/flipkar_relesed/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexusRepo</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository</name>
-	      <url>http://13.127.50.164:8081/repository/maven-snapshots/</url>
+	      <url>http://13.127.50.164:8081/repository/flipkat-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
