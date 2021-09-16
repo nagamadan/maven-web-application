@@ -1,14 +1,20 @@
 pipeline{
-  agent any {
+  agent any 
+    environment{
      PATH="/usr/share/maven/bin:$PATH"
-  }
+    }
   stages{
       stage("Scm Checkout"){
          steps{
             https://github.com/mkratnakumar/maven-web-application.git
           }
-      }
-  }    
+       }
+      stage("Maven Build"){
+        steps{
+           sh "mvn clean package
+         }
+       }
+    }    
 }
    
      
